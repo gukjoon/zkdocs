@@ -10,7 +10,7 @@ import SubmitterForm from "./pages/SubmitterForm";
 
 const client = createClient({
     provider(config) {
-        if (config.chainId! === 31337) {
+        if (config.chainId! === 1337) {
             // Reroute the provider for localhost
             return new providers.JsonRpcProvider("http://localhost:8545");
         } else {

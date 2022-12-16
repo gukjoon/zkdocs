@@ -36,7 +36,7 @@ function App() {
                         {accountData ? (
                             <div>
                                 {/* If hardhat local, display faucet */}
-                                {activeChain?.id === 31337 ? (
+                                {activeChain?.id === 1337 ? (
                                     <button
                                         className="bg-green-400 hover:bg-green-600 rounded-full px-3 border-2 border-black font-mono text-sm"
                                         onClick={() =>
